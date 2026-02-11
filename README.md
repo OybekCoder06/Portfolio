@@ -133,7 +133,7 @@ This project is open source and available for personal use.
 
 ## 👤 Contact
 
-- **Email**: [EMAIL_ADDRESS](mailto:xokimovoybek@gmail.com)
+- **Email**: [xokimovoybek@gmail.com](mailto:xokimovoybek@gmail.com)
 - **Telegram**: [@oybekcoder](https://t.me/oybekcoder)
 - **GitHub**: [github.com/oybekcoder](https://github.com/oybekcoder)
 - **LinkedIn**: [linkedin.com/in/oybekcoder](https://linkedin.com/in/oybekcoder)
