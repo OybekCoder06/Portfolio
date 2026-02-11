@@ -1,0 +1,19 @@
+{
+  "name": "oybekcoder-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for OybekCoder - Software Developer & Cybersecurity Enthusiast",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "npx http-server -p 8000 -o",
+    "deploy": "echo 'Ready to deploy! Use GitHub Pages, Netlify, or Vercel'"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "cybersecurity",
+    "personal-website"
+  ],
+  "author": "OybekCoder",
+  "license": "MIT"
+}
