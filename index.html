@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="OybekCoder - Software Developer, Full-Stack Developer & Cybersecurity Enthusiast. Building innovative solutions and mastering ethical hacking.">
+    <meta name="keywords"
+        content="OybekCoder, Software Developer, Full-Stack Developer, Cybersecurity, Ethical Hacking, Pentesting, Python Developer">
+    <meta name="author" content="OybekCoder">
+    <title>OybekCoder | Developer • Cybersecurity • Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="assets/1636463576688.png" rel="icon">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">OybekCoder</span>
+                <span class="logo-bracket">/&gt;</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#learning" class="nav-link">Learning</a></li>
+                <li><a href="#vision" class="nav-link">Vision</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="grid-overlay"></div>
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-tag">
+                    <span class="terminal-prompt">$</span>
+                    <span class="typing-text">whoami</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">OybekCoder</span>
+                </h1>
+                <p class="hero-subtitle">Secure Backend Systems • Automation • Architecture</p>
+                <p class="hero-description">
+                    Building robust, security-first applications that solve operational challenges.
+                    Specialized in high-performance automation and secure backend architectures for
+                    real-world impact.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Projects Built</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Learning Mode</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// About Me</span>
+                <h2 class="section-title">My Journey</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I am <strong>OybekCoder</strong>, a tech-driven builder focused on creating scalable, secure,
+                        and efficient digital infrastructure.
+                    </p>
+                    <p>
+                        My work revolves around <strong>robust backend systems</strong> and <strong>process
+                            automation</strong>. Starting with Python, I've developed a track record of building complex
+                        Telegram-based ecosystems, ranging from AI-integrated chat systems to large-scale admin tools.
+                    </p>
+                    <p>
+                        Unlike traditional developers who treat security as an afterthought, I operate with a
+                        <strong>security-first mindset</strong>. By combining development expertise with hands-on
+                        practice in penetration testing labs and Linux hardening, I ensure that the solutions I build
+                        are not just functional, but resilient.
+                    </p>
+                    <p>
+                        I focus on <strong>long-term value</strong>. Whether it's automating 10+ hours of manual labor
+                        for a business or architecting a secure API, my goal is to deliver clean, maintainable, and
+                        production-grade code that drives results.
+                    </p>
+                    <div class="about-principles">
+                        <h3>Professional Philosophy</h3>
+                        <ul>
+                            <li><span class="principle-icon">→</span> Security as a foundational requirement, not a
+                                feature.</li>
+                            <li><span class="principle-icon">→</span> Automation to eliminate technical debt and human
+                                error.</li>
+                            <li><span class="principle-icon">→</span> Result-oriented development over aimless
+                                experimentation.</li>
+                            <li><span class="principle-icon">→</span> Documented, scalable, and production-ready
+                                architectures.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <span class="code-dot red"></span>
+                            <span class="code-dot yellow"></span>
+                            <span class="code-dot green"></span>
+                            <span class="code-title">developer.py</span>
+                        </div>
+                        <div class="code-content">
+                            <pre><code><span class="code-keyword">class</span> <span class="code-class">Developer</span>:
+    <span class="code-keyword">def</span> <span class="code-function">__init__</span>(<span class="code-param">self</span>):
+        <span class="code-param">self</span>.name = <span class="code-string">"OybekCoder"</span>
+        <span class="code-param">self</span>.age = <span class="code-number">19</span>
+        <span class="code-param">self</span>.role = <span class="code-string">"Full-Stack Developer"</span>
+        <span class="code-param">self</span>.focus = [
+            <span class="code-string">"Web Development"</span>,
+            <span class="code-string">"Cybersecurity"</span>,
+            <span class="code-string">"AI & Automation"</span>
+        ]
+        <span class="code-param">self</span>.mindset = <span class="code-string">"Growth"</span>
+    
+    <span class="code-keyword">def</span> <span class="code-function">build_future</span>(<span class="code-param">self</span>):
+        <span class="code-keyword">while</span> <span class="code-param">self</span>.alive:
+            <span class="code-param">self</span>.learn()
+            <span class="code-param">self</span>.build()
+            <span class="code-param">self</span>.share_knowledge()
+            <span class="code-param">self</span>.level_up()</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Technical Arsenal</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Programming -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">💻</div>
+                        <h3>Backend & Automation</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python / Asyncio</span>
+                            <span class="skill-label strong">Strong</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Automated Bot Ecosystems</span>
+                            <span class="skill-label strong">Strong</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">API Integration & Design</span>
+                            <span class="skill-label intermediate">Intermediate</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Database Architecture (SQL/NoSQL)</span>
+                            <span class="skill-label intermediate">Intermediate</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Full-Stack Development (Node.js/Web)</span>
+                            <span class="skill-label intermediate">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cybersecurity -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">🛡️</div>
+                        <h3>Security-Aware Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Linux System Hardening</span>
+                            <span class="skill-label strong">Strong</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Secure Coding Practices</span>
+                            <span class="skill-label intermediate">Intermediate</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Vulnerability Assessment Labs</span>
+                            <span class="skill-label intermediate">Intermediate</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Pentesting Tools (Nmap, Burp Suite)</span>
+                            <span class="skill-label foundational">Foundational / Labs</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Network Security Foundations</span>
+                            <span class="skill-label foundational">Foundational</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Infrastructure -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">⚙️</div>
+                        <h3>Infrastructure & DevOps</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Linux Server Administration</span>
+                            <span class="skill-label strong">Strong</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git / Version Control</span>
+                            <span class="skill-label strong">Strong</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Docker & Containerization</span>
+                            <span class="skill-label intermediate">Intermediate</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Cloud Deployment (VPS/Railway)</span>
+                            <span class="skill-label intermediate">Intermediate</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CI/CD & Automation Scripts</span>
+                            <span class="skill-label foundational">Foundational</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🤖</div>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">AI Integration</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">AI-Driven Ecosystem Bot</h3>
+                    <div class="project-case-study">
+                        <div class="case-item">
+                            <strong>Problem:</strong> Fragmented user inquiries across platforms with high manual
+                            response
+                            times.
+                        </div>
+                        <div class="case-item">
+                            <strong>Solution:</strong> Architected a centralized Telegram backend integrated with GPT-4
+                            for context-aware automation.
+                        </div>
+                        <div class="case-item">
+                            <strong>Impact:</strong> Handled 1,000+ active sessions with 24/7 uptime, reducing manual
+                            overhead by 80%.
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://t.me/OybekCoder_Blog/302" target="_blank" class="project-link">Architecture Review →</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">👮</div>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Automation</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Secure Admin Infrastructure</h3>
+                    <div class="project-case-study">
+                        <div class="case-item">
+                            <strong>Problem:</strong> Lack of automated moderation and role-based access in large-scale
+                            communities.
+                        </div>
+                        <div class="case-item">
+                            <strong>Solution:</strong> Developed a custom moderation engine with automated threat
+                            detection and analytics.
+                        </div>
+                        <div class="case-item">
+                            <strong>Impact:</strong> Scaled to manage 5,000+ members across multiple groups with zero
+                            security breaches reported.
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://t.me/OybekCoder_Projects/10" target="_blank" class="project-link">Security Specs →</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">⚙️</div>
+                        <div class="project-tags">
+                            <span class="tag">Linux</span>
+                            <span class="tag">Bash</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Automated Server Hardening</h3>
+                    <div class="project-case-study">
+                        <div class="case-item">
+                            <strong>Problem:</strong> Vulnerable default server configurations prone to automated
+                            attacks.
+                        </div>
+                        <div class="case-item">
+                            <strong>Solution:</strong> Scripted a baseline security suite for Linux VPS, including
+                            firewall automation and logging.
+                        </div>
+                        <div class="case-item">
+                            <strong>Impact:</strong> Reduced server vulnerability surface by 60% across 5 nodes.
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://t.me/OybekCoder_Blog" target="_blank" class="project-link">View Methodology →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Section -->
+    <section id="learning" class="learning">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Continuous Growth</span>
+                <h2 class="section-title">Learning & Certifications</h2>
+            </div>
+            <div class="learning-content">
+                <div class="learning-intro">
+                    <p>
+                        I believe in <strong>continuous learning</strong> and staying ahead of the curve.
+                        My education is self-driven, focused on practical skills and real-world application.
+                    </p>
+                </div>
+                <div class="learning-grid">
+                    <div class="learning-card">
+                        <div class="learning-icon">🎯</div>
+                        <h3>Current Focus</h3>
+                        <ul>
+                            <li>Advanced Full-Stack Development (MERN/MEAN)</li>
+                            <li>Cybersecurity & Ethical Hacking</li>
+                            <li>Cloud Architecture & DevOps</li>
+                            <li>AI/ML Integration in Applications</li>
+                        </ul>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-icon">📚</div>
+                        <h3>Learning Platforms</h3>
+                        <ul>
+                            <li>TryHackMe - Cybersecurity Training</li>
+                            <li>Udemy - Full-Stack Development</li>
+                            <li>YouTube - Technical Deep Dives</li>
+                            <li>Official Documentation - Best Practices</li>
+                        </ul>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-icon">🏆</div>
+                        <h3>Future Certifications</h3>
+                        <ul>
+                            <li>CompTIA Security+ (Planned 2026)</li>
+                            <li>Certified Ethical Hacker (CEH)</li>
+                            <li>AWS Solutions Architect</li>
+                            <li>OSCP - Offensive Security</li>
+                        </ul>
+                    </div>
+                    <div class="learning-card">
+                        <div class="learning-icon">💡</div>
+                        <h3>Skills Development</h3>
+                        <ul>
+                            <li>Daily coding challenges & problem-solving</li>
+                            <li>Open-source contributions</li>
+                            <li>CTF competitions & security labs</li>
+                            <li>Building real-world projects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="vision">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Future Roadmap</span>
+                <h2 class="section-title">Vision & Goals</h2>
+            </div>
+            <div class="vision-content">
+                <div class="vision-intro">
+                    <p class="vision-statement">
+                        "Building expertise, creating impact, and empowering the next generation of developers."
+                    </p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2026 - Full-Stack Mastery</h3>
+                            <p>
+                                Master modern full-stack development with React, Node.js, and cloud technologies.
+                                Build production-grade applications and contribute to open-source projects.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2027 - Cybersecurity Expertise</h3>
+                            <p>
+                                Achieve professional-level cybersecurity certifications (CEH, Security+).
+                                Specialize in penetration testing, vulnerability assessment, and secure development.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2028 - IT Education Center</h3>
+                            <p>
+                                Launch an IT training center offering courses in Python, AI/ML, Web Development,
+                                and Cybersecurity. Empower aspiring developers with practical, industry-relevant skills.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>2030 - Global Recognition</h3>
+                            <p>
+                                Build a globally recognized personal brand in tech. Speak at conferences,
+                                publish technical content, and mentor the next generation of developers and security
+                                professionals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="vision-pillars">
+                    <h3>Core Focus Areas</h3>
+                    <div class="pillars-grid">
+                        <div class="pillar">
+                            <div class="pillar-icon">🚀</div>
+                            <h4>Technical Excellence</h4>
+                            <p>Mastering cutting-edge technologies and best practices</p>
+                        </div>
+                        <div class="pillar">
+                            <div class="pillar-icon">🛡️</div>
+                            <h4>Security First</h4>
+                            <p>Building secure, robust, and resilient systems</p>
+                        </div>
+                        <div class="pillar">
+                            <div class="pillar-icon">📖</div>
+                            <h4>Knowledge Sharing</h4>
+                            <p>Teaching and empowering others through education</p>
+                        </div>
+                        <div class="pillar">
+                            <div class="pillar-icon">🌍</div>
+                            <h4>Global Impact</h4>
+                            <p>Creating solutions that make a difference</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Get In Touch</span>
+                <h2 class="section-title">Let's Build Something Together</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-intro">
+                    <p>
+                        Whether you're looking for a developer, have a project in mind, or just want to connect—
+                        I'm always open to discussing new opportunities and collaborations.
+                    </p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <a href="mailto:xokimovoybek@gmail.com">xokimovoybek@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">💬</div>
+                        <h3>Telegram</h3>
+                        <a href="https://t.me/oybekcoder" target="_blank">@oybekcoder</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">💻</div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/oybekcoder06" target="_blank">github.com/oybekcoder</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🔗</div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/oybek-xakimov" target="_blank">linkedin.com/in/oybek-xakimov</a>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>Ready for Your Next High-Impact Project</h3>
+                    <p>
+                        I am currently open to <strong>freelance collaborations</strong>, <strong>technical
+                            consultations</strong>, and <strong>full-time opportunities</strong> focused on secure
+                        backend development and intelligent automation.
+                    </p>
+                    <a href="mailto:xokimovoybek@gmail.com" class="btn btn-primary">Start a Discussion</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-bracket">&lt;</span>
+                        <span class="logo-text">OybekCoder</span>
+                        <span class="logo-bracket">/&gt;</span>
+                    </div>
+                    <p class="footer-tagline">
+                        Building the future, one line of code at a time.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column" style="float: left;">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column" style="float: right;">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="https://github.com/oybekcoder06" target="_blank">GitHub</a></li>
+                            <li><a href="https://t.me/oybekcoder" target="_blank">Telegram</a></li>
+                            <li><a href="https://linkedin.com/in/oybek-xakimov" target="_blank">LinkedIn</a></li>
+                            <li><a href="mailto:xokimovoybek@gmail.com">Email</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 OybekCoder. All rights reserved.</p>
+                <p class="footer-quote">
+                    "Code with purpose. Learn with discipline. Build with impact."
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
